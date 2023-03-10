@@ -1,0 +1,7 @@
+:root {
+    --test: aqua
+}
+
+h1{
+    color: var(--test);
+}
