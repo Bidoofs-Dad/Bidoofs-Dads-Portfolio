@@ -65,17 +65,8 @@ header {
     right: 30px;
   }
 
-.hmm {
-  display: flex;
-}
+  .verticalLine {
+    border-left: thick solid #ff0000;
+  }
 
-.hmm p {
 
-  margin-left: 50px;
-  text-align: center;
-}
-
-.hmm h2 {
-  padding-left: 300px;
-  text-align: center;
-}
