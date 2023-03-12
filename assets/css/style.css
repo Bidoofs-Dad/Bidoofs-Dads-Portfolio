@@ -65,8 +65,30 @@ header {
     right: 30px;
   }
 
+  .About-Me {
+    display: flex;
+    align-items: baseline;
+    padding-left: 10%;
+  }
+
+  .About-Me h2 {
+    justify-content: flex-end;
+    text-align: end;
+    padding-left: 10%;
+    font-size: 225%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
   .verticalLine {
     border-left: thick solid #ff0000;
+    margin-left: 1%;
+  }
+
+  p {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 1%;
+    margin-left: 2%;
   }
 
 
