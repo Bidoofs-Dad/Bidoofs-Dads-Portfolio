@@ -84,11 +84,28 @@ header {
     margin-left: 1%;
   }
 
+  .Work {
+    display: flex;
+    align-items: baseline;
+    padding-left: 10%;
+  }
+
+  .Work h2 {
+    justify-content: flex-end;
+    text-align: end;
+    padding-left: 10%;
+    font-size: 225%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .Work span {
+    color: transparent;
+  }
+
   p {
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-right: 1%;
     margin-left: 2%;
   }
-
 
