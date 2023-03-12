@@ -40,7 +40,7 @@ header {
     color: aquamarine;
   }
 
-  h2 {
+  .Subtitle h2 {
     background-color: #1e88a5;
     overflow: hidden;
     display: inline-block;
@@ -65,4 +65,17 @@ header {
     right: 30px;
   }
 
+.hmm {
+  display: flex;
+}
 
+.hmm p {
+
+  margin-left: 50px;
+  text-align: center;
+}
+
+.hmm h2 {
+  padding-left: 300px;
+  text-align: center;
+}
