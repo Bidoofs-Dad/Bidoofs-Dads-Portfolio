@@ -30,22 +30,39 @@ header {
 
   img {
     width: 100%;
-    height: 150px;
+    height: 250px;
   }
 
   .background {
+    overflow: hidden;
     position: relative;
     text-align: center;
     color: aquamarine;
-    font-weight: 900;
   }
+
+  h2 {
+    background-color: #1e88a5;
+    overflow: hidden;
+    display: inline-block;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: transparent;
+    font-size: 300%;
+}
+
+.Subtitle span {
+  background: url(../images/background.jpg);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  display: block;
+  /* font-size: 35px; */
+}
 
   .Subtitle {
     position: absolute;
     bottom: 15px;
     right: 30px;
-    font-size: 30px;
-    background-color: blueviolet;
   }
 
 
