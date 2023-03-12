@@ -109,3 +109,10 @@ header {
     margin-left: 2%;
   }
 
+  @media screen and (max-width: 768px) {
+  .Subtitle span{
+    font-size: 50%;
+  }  
+  }
+    
+  
