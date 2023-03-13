@@ -102,6 +102,21 @@ header {
     color: transparent;
   }
 
+  .image-gallery {
+    display: flex;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    border: 2px green;
+    margin: 12px;
+    box-shadow: 0px 1px 4px 2px aqua;
+    padding: 1em;
+    justify-content: space-between;
+  }
+
   p {
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
