@@ -3,21 +3,21 @@
 }
 
 body {
-  background-color: darkgrey;
+  background-color: rgb(110, 91, 91);
 }
 
 header {
     display: flex;
     align-items: center;
     justify-content: space-between; 
-    border-bottom: 1px solid #0cc2d2;
+    border-bottom: 5px solid #0cc2d2;
     padding: 10px 30px;
-    background-color: #c3025c;
+    background-color: black;
   }
 
   a {
     text-decoration: none;
-    color: #0cc2d2;
+    color: var(--test);
   }
 
   header ul,
@@ -29,7 +29,9 @@ header {
   }
 
   h1 {
-    color: var(--test);
+    background-color: var(--test);
+    margin-left: -30px;
+    padding-left: 50px;
   }
 
   li {
@@ -56,7 +58,7 @@ header {
   }
 
   .Subtitle h2 {
-    background-color: #1e88a5;
+    background-color: var(--test);
     overflow: hidden;
     display: inline-block;
     padding: 10px;
@@ -95,7 +97,7 @@ header {
   }
 
   .verticalLine {
-    border-left: thick solid #ff0000;
+    border-left: thick solid var(--test);
     margin-left: 1%;
   }
 
@@ -163,12 +165,12 @@ header {
   }
 
   button:hover {
-    box-shadow: 10px 10px 10px aqua;
+    box-shadow: 10px 10px 10px var(--test);
   }
 
   button:active {
     outline: none;
-  border-color: #8ac4ff;
+  border-color: var(--test);
   box-shadow: none;
   }
 
@@ -203,7 +205,7 @@ header {
   justify-content: space-around; 
   border-top: 5px solid #0cc2d2;
   padding: 10px 30px;
-  background-color: #c3025c;
+  background-color: black;
   }
 
   /* @media screen and (max-width: 768px) {
