@@ -99,7 +99,8 @@ header {
     font-family: Arial, Helvetica, sans-serif;
   }
 
-  .Work span {
+  .Work span,
+  .Resume span {
     color: transparent;
   }
 
@@ -137,6 +138,24 @@ header {
     bottom: 8px;
     right: 16px;
 
+  }
+
+  .Resume {
+    display: flex;
+    align-items: baseline;
+    padding-left: 6%;
+  }
+
+  .Resume h2 {
+    justify-content: flex-end;
+    text-align: end;
+    padding-left: 10%;
+    font-size: 225%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .Resume p {
+    text-align: center;
   }
 
   p {
