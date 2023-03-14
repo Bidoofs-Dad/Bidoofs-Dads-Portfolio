@@ -132,23 +132,39 @@ header {
     object-fit: cover;
     width: 100%;
     height: auto;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     vertical-align: middle;
   
   }
 
   .cats {
     position: relative;
-    text-align: center;
-    color: white;
+    /* text-align: center;
+    color: white; */
   }
 
-  .uhhh {
+  .cat-names {
     position: absolute;
     bottom: 8px;
     right: 16px;
     background-color: #c3025c;
 
+  }
+
+  button {
+    padding: 0px;
+    border: 5px solid #13293d;
+    border-radius: 3px;
+  }
+
+  button:hover {
+    box-shadow: 10px 10px 10px aqua;
+  }
+
+  button:active {
+    outline: none;
+  border-color: #8ac4ff;
+  box-shadow: none;
   }
 
   .Resume {
