@@ -2,6 +2,10 @@
     --test: aqua
 }
 
+body {
+  background-color: darkgrey;
+}
+
 header {
     display: flex;
     align-items: center;
