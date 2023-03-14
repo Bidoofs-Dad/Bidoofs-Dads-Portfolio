@@ -11,7 +11,8 @@ header {
     background-color: #c3025c;
   }
 
-  header ul {
+  header ul,
+  footer ul {
     display: inline-flex;
     list-style-type: none;
     padding-left: 50px;
@@ -163,6 +164,15 @@ header {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-right: 1%;
     margin-left: 2%;
+  }
+
+  footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; 
+  border-bottom: 1px solid #0cc2d2;
+  padding: 10px 30px;
+  background-color: #c3025c;
   }
 
   @media screen and (max-width: 768px) {
