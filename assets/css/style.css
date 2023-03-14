@@ -15,6 +15,11 @@ header {
     background-color: #c3025c;
   }
 
+  a {
+    text-decoration: none;
+    color: #0cc2d2;
+  }
+
   header ul,
   footer ul {
     display: inline-flex;
