@@ -118,7 +118,7 @@ header {
   }
 
   .image-gallery > li {
-    flex-basis: 425px;
+    flex-basis: 400px;
   
   }
   
@@ -142,6 +142,7 @@ header {
     position: absolute;
     bottom: 8px;
     right: 16px;
+    background-color: #c3025c;
 
   }
 
