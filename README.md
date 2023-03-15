@@ -26,8 +26,8 @@ Some issues that are still prevalent on the page, are as follows;
 
 ## Screenshots Of The Finished Project
 
-![Bidoofs-Dads-Portfolio]()
-![Bidoofs-Dads-Portfolio]()
+![Bidoofs-Dads-Portfolio](/assets/images/Screenshot%20Top.png)
+![Bidoofs-Dads-Portfolio](/assets/images/Screenshot%20Bottom.png)
 
 ## Link To The GitHub Repository
 
