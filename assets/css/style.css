@@ -59,6 +59,7 @@ header {
     flex-wrap: wrap;
   }
 
+  /*The following 'Subtitle' tags are the tags that allowed the see-through effect of the Subtitle text*/
   .Subtitle h2 {
     background-color: var(--secondary);
     overflow: hidden;
@@ -75,7 +76,6 @@ header {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   display: block;
-  /* font-size: 35px; */
 }
 
   .Subtitle {
@@ -98,6 +98,7 @@ header {
     font-family: var(--Arial);
   }
 
+  /*This one is all in the name, it just created the vertical lines*/
   .verticalLine {
     border-left: thick solid var(--secondary);
     margin-left: 1%;
@@ -109,6 +110,7 @@ header {
     color: transparent;
   }
 
+  /*The 'image gallery' tags are responsible for placing the images of the cats and having them wrap when the screen gets smaller.*/
   .image-gallery {
     display: flex;
     flex-wrap: wrap;
@@ -131,6 +133,8 @@ header {
   
   }
 
+
+  /*The following 'cat' tags took care of adding the kitty's names inside of the images.*/
   .cats {
     position: relative;
     
