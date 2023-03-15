@@ -82,13 +82,13 @@ header {
     right: 30px;
   }
 
-  .About-Me {
+  .About-Me-Work {
     display: flex;
     align-items: baseline;
     padding-left: 10%;
   }
 
-  .About-Me h2 {
+  .About-Me-Work h2 {
     justify-content: flex-end;
     text-align: end;
     padding-left: 10%;
@@ -101,21 +101,8 @@ header {
     margin-left: 1%;
   }
 
-  .Work {
-    display: flex;
-    align-items: baseline;
-    padding-left: 10%;
-  }
 
-  .Work h2 {
-    justify-content: flex-end;
-    text-align: end;
-    padding-left: 10%;
-    font-size: 225%;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
-  .Work span,
+  .About-Me-Work span,
   .Resume span {
     color: transparent;
   }
@@ -193,6 +180,7 @@ header {
   }
 
   p {
+    font-size: 20px;
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-right: 1%;
@@ -207,11 +195,5 @@ header {
   padding: 10px 30px;
   background-color: black;
   }
-
-  /* @media screen and (max-width: 768px) {
-  .Subtitle span{
-    font-size: 50%;
-  }  
-  } */
     
   
