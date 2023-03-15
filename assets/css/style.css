@@ -1,5 +1,7 @@
 :root {
-    --test: aqua
+    --secondary: aqua;
+    --Arial: Arial, Helvetica, sans-serif;
+    --Gothic: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body {
@@ -10,14 +12,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between; 
-    border-bottom: 5px solid #0cc2d2;
+    border-bottom: 5px solid var(--secondary);
     padding: 10px 30px;
     background-color: black;
   }
 
   a {
     text-decoration: none;
-    color: var(--test);
+    color: var(--secondary);
   }
 
   header ul,
@@ -29,16 +31,16 @@ header {
   }
 
   h1 {
-    background-color: var(--test);
+    background-color: var(--secondary);
     margin-left: -30px;
     padding-left: 50px;
   }
 
   li {
     padding: 10px;
-    color: var(--test);
+    color: var(--secondary);
     font-size: larger;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--Arial);
   }
 
   img {
@@ -58,12 +60,12 @@ header {
   }
 
   .Subtitle h2 {
-    background-color: var(--test);
+    background-color: var(--secondary);
     overflow: hidden;
     display: inline-block;
     padding: 10px;
     font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--Gothic);
     color: transparent;
     font-size: 225%;
 }
@@ -93,11 +95,11 @@ header {
     text-align: end;
     padding-left: 10%;
     font-size: 225%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--Arial);
   }
 
   .verticalLine {
-    border-left: thick solid var(--test);
+    border-left: thick solid var(--secondary);
     margin-left: 1%;
   }
 
@@ -125,15 +127,13 @@ header {
     object-fit: cover;
     width: 100%;
     height: auto;
-    /* border-radius: 5px; */
     vertical-align: middle;
   
   }
 
   .cats {
     position: relative;
-    /* text-align: center;
-    color: white; */
+    
   }
 
   .cat-names {
@@ -152,12 +152,12 @@ header {
   }
 
   button:hover {
-    box-shadow: 10px 10px 10px var(--test);
+    box-shadow: 10px 10px 10px var(--secondary);
   }
 
   button:active {
     outline: none;
-  border-color: var(--test);
+  border-color: var(--secondary);
   box-shadow: none;
   }
 
@@ -172,7 +172,7 @@ header {
     text-align: end;
     padding-left: 10%;
     font-size: 225%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--Arial);
   }
 
   .Resume p {
@@ -182,7 +182,7 @@ header {
   p {
     font-size: 20px;
     color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--Gothic);
     margin-right: 1%;
     margin-left: 2%;
   }
@@ -191,9 +191,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around; 
-  border-top: 5px solid #0cc2d2;
+  border-top: 5px solid var(--secondary) ;
   padding: 10px 30px;
   background-color: black;
   }
     
   
+/*#0cc2d2*/
