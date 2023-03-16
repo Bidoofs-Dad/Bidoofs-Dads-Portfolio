@@ -29,6 +29,6 @@ Some issues that are still prevalent on the page, are as follows;
 ![Bidoofs-Dads-Portfolio](/assets/images/Screenshot%20Top.png)
 ![Bidoofs-Dads-Portfolio](/assets/images/Screenshot%20Bottom.png)
 
-## Link To The GitHub Repository
+## Link To The Live Site (via GitHub Pages)
 
-https://github.com/Bidoofs-Dad/Bidoofs-Dads-Portfolio
+https://bidoofs-dad.github.io/Bidoofs-Dads-Portfolio/
