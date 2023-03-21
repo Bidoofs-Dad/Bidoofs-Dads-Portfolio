@@ -16,11 +16,10 @@ Some issues that are still prevalent on the page, are as follows;
 
 * Going off of the image issue, they appear not lined up, due to each image having different dimensions, however I did set the 'flex-basis' to a fixed width, which helped sharpen it up a bit.
 
-* I also had trouble keeping the vertical lines in line with each other. I was able to keep the 'About Me" and the 'Work' lines inline, but couldn't get the 'Resume' line to cooperate unfortunately.
+* I also had trouble keeping the vertical lines in line with each other. I was able to keep the 'About Me" and the 'Work' lines inline in the end, but it took a lot of trial and error to do so. I still think there may have been an easier way that I could've went about it.
+<!--- I actually found the solution to this, turns out I had another empty 'footer' tag above the other one, just a silly mistake.
 
-* Going off of the 'Resume' line, the small paragraph next to it is not in line. I noticed that if I added a bunch of text to it, then it would appear correctly, but with the small amount that is there, it just didn't want to work. I tried messing around with the margins as well, but then that just seemed to affect other properties when shrinking the page.
-
-* A small issue I couldn't find the solution to was in the footer. When adding a border to it, it seems it wanted to double up and add two. In the end I actually liked the look of the double line, but I would still like to know how to change that.
+* A small issue I couldn't find the solution to was in the footer. When adding a border to it, it seems it wanted to double up and add two. In the end I actually liked the look of the double line, but I would still like to know how to change that. --->
 
 * The last thing was also a little minor, but again I would like to know how to fix it. I couldn't seem to get the 'header', 'background image' nor the 'footer' to stretch all the way across the screen, instead they have just a small border around them consisting of the 'body' background color. It still looks fine, but I would like to fix that for future endeavors.
 
